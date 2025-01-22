@@ -514,3 +514,5 @@ To enable or make active the newly created Catalogue item:
 To disable or archive a catalogue item, refer to [1.3 Disable or Archive an Item](#13-disable-or-archive-an-item).
 
 <br>
+
+Once the catalogue item has been created, contact LDaCA staff to finalise the resource entitlement processes for your data.
