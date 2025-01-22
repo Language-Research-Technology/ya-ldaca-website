@@ -1,5 +1,5 @@
 ---
-title: "Login"
+title: "Portal Login"
 date: 2019-01-29T11:38:37+11:00
 draft: false
 description: "A guide to logging in to the portal."
@@ -11,7 +11,7 @@ description: "A guide to logging in to the portal."
 
 <br>
 
-Some collections require that you log in either to access, or apply for access, to the data. This can be done by selecting ___Login___ from the top menu bar.
+Some collections require that you log in either to access, or apply for access, to the data. This can be done by selecting **_Login_** from the top menu bar.
 
 <br>
 
@@ -19,7 +19,7 @@ Some collections require that you log in either to access, or apply for access, 
 
 <br>
 
-You will be taken to the _LDaCAData_ login page. Select ___Sign in with CILogon___.
+You will be taken to the _LDaCAData_ login page. Select **_Sign in with CILogon_**.
 
 <br>
 
@@ -28,6 +28,7 @@ You will be taken to the _LDaCAData_ login page. Select ___Sign in with CILogon_
 <br>
 
 You will be taken to the CILogon page which:
+
 - provides details of the _Consent to Attribute Release_
 - allows you to select an identity provider.
 
@@ -43,7 +44,7 @@ For further details about CILogon and the identity providers it supports, see [C
 
 <br>
 
-First select your preferred identity provider in the dropdown before clicking ___Log On___ (there is also a search bar available to more easily find your selection). If you want the system to remember your selection on subsequent visits, select ___Remember this selection___.
+First select your preferred identity provider in the dropdown before clicking **_Log On_** (there is also a search bar available to more easily find your selection). If you want the system to remember your selection on subsequent visits, select **_Remember this selection_**.
 
 <br>
 
@@ -51,7 +52,7 @@ First select your preferred identity provider in the dropdown before clicking __
 
 <br>
 
-Once your login is successful, you will be redirected back to the portal page and the ___Login___ section of the top menu bar will instead display your account name.
+Once your login is successful, you will be redirected back to the portal page and the **_Login_** section of the top menu bar will instead display your account name.
 
 <br>
 
@@ -60,7 +61,8 @@ Once your login is successful, you will be redirected back to the portal page an
 <br>
 
 Hovering your cursor on the arrow next to your account name will trigger a dropdown menu with the following two options:
-- ___User Information___: View your user details and memberships to collections that have more specific {{< glossary_link display="access conditions" id="access-conditions" >}}.
-- ___Logout___: Select to log out of your account.
+
+- **_User Information_**: View your user details and memberships to collections that have more specific {{< glossary_link display="access conditions" id="access-conditions" >}}.
+- **_Logout_**: Select to log out of your account.
 
 <br>

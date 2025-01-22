@@ -1,5 +1,5 @@
 ---
-title: "Cite Data"
+title: "Portal Data Citation"
 date: 2016-04-16T13:09:22+10:00
 draft: false
 description: "A guide to citing collections and data accessed through the portal."
@@ -29,9 +29,9 @@ Follow this guide when you need to cite a data source that you accessed through 
 
 <br>
 
-Cite the {{< glossary_link display="collection" id="collection" >}} as a whole whenever you use, or need to refer to, any part of it in your work, unless otherwise stated in the citation information provided in the LDaCA portal.
+Cite the {{< glossary_link display="collection" id="collection" >}} as a whole whenever you use, or need to refer to, any part of it in your work, unless otherwise stated in the citation information provided in the LDaCA Portal.
 
-You can find each collection’s citation information on the collection level page under "How to cite this collection". The collection level page is the webpage presented upon selection of the collection name from the portal homepage or from a list of search results. Note that this citation information is separate from the _Citation_ {{< glossary_link display="metadata" id="metadata" >}} field that appears in some collections and refers to published papers about the collection.
+You can find each collection's citation information on the collection level page under "How to cite this collection". The collection level page is the webpage presented upon selection of the collection name from the portal homepage or from a list of search results. Note that this citation information is separate from the _Citation_ {{< glossary_link display="metadata" id="metadata" >}} field that appears in some collections and refers to published papers about the collection.
 
 <!--TODO add screenshot when we have this functionality-->
 
@@ -83,7 +83,7 @@ As an example, the COrpus of Oz Early English (COOEE) shows a Citation field wit
 
 <br>
 
-If you discovered or accessed the {{< glossary_link display="data collection" id="data-collection" >}} that you used in your work through the LDaCA portal, please cite or acknowledge LDaCA as follows:
+If you discovered or accessed the {{< glossary_link display="data collection" id="data-collection" >}} that you used in your work through the LDaCA Portal, please cite or acknowledge LDaCA as follows:
 
 > Data accessed via the Language Data Commons of Australia data portal https://data.ldaca.edu.au on [yyyy-mm-dd].
 

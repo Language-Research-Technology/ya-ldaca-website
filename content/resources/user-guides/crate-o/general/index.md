@@ -1,5 +1,5 @@
 ---
-title: "General Information"
+title: "Crate-O General Information"
 date: 2024-05-22T15:43:09+10:00
 draft: false
 description: "A brief overview of Crate-O, RO-Crate, Schemas, Profiles and Modes."
@@ -36,7 +36,7 @@ While the current version of Crate-O is designed for editing self-contained RO-C
 
 {{< glossary_link display="Crate-O" id="crate-o" >}} is designed to work with any of the following use cases:
 
-- Describe {{< glossary_link display="data collections" id="data-collection" >}} and files on a user’s computer, and add contextual information about those files
+- Describe {{< glossary_link display="data collections" id="data-collection" >}} and files on a user's computer, and add contextual information about those files
 - Describe abstract contextual entities, such as in a Cultural Collection or an encyclopaedia
 - Annotate existing resources elsewhere on the web
 - Submit a data collection to the {{< glossary_link display="LDaCA" id="ldaca" >}} Portal

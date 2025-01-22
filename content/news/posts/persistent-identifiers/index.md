@@ -19,7 +19,7 @@ Most of us are familiar with the concept of identifiers (IDs); they mark and ind
 
 As far as we can see in the literature, the term {{< glossary_link display="PID" id="pid" >}} is closely tied to the rise of the internet and digital information management in the 1990s. This makes sense as PIDs are meant to operate in the context of the web environment. The qualifier “persistent” refers to the need to mitigate effects of the transient nature of online content, where websites and digital resources can disappear, change or become inaccessible over time (Chapekis et al. 2024).
 
-PIDs are a critical part of scholarly communication, especially online where the volume of data is increasing every minute. Research outcomes and resources have to be shared appropriately, therefore, data {{< glossary_link display="objects" id="object" >}} and entities need to be unambiguously identifiable and reliably findable, and the connections between them made evident. PIDs are fundamental to fulfilling these requirements. The Australian Research Data Commons’s [Australian National PID Strategy 2024](https://pidroadmap.ardc.edu.au/pids/) provides an excellent summary of how PIDs contribute to strengthening the digital infrastructure ecosystem and to driving research innovation in Australia.
+PIDs are a critical part of scholarly communication, especially online where the volume of data is increasing every minute. Research outcomes and resources have to be shared appropriately, therefore, data {{< glossary_link display="objects" id="object" >}} and entities need to be unambiguously identifiable and reliably findable, and the connections between them made evident. PIDs are fundamental to fulfilling these requirements. The Australian Research Data Commons's [Australian National PID Strategy 2024](https://pidroadmap.ardc.edu.au/pids/) provides an excellent summary of how PIDs contribute to strengthening the digital infrastructure ecosystem and to driving research innovation in Australia.
 
 A strategy used by some PID systems (e.g. the {{< glossary_link display="DOI" id="doi" >}} system) to sustain persistence is separating how the object is identified from where the object is located. The identification component consists of a globally unique identifier; a typical convention is as a series of numbers, letters and special characters. This identifier is optimised on the web by being actionable, that is, it can be formatted as a locator, e.g. a URL, that points to information or {{< glossary_link display="metadata" id="metadata" >}} about the object (also referred to as the _reference_ to the object). Based on this strategy, an identifier is considered persistent when it consistently _resolves_ over a reasonably long period to the webpage containing information or metadata about the object, including information about the location of the object.
 
@@ -41,7 +41,7 @@ Below are a few examples of PIDs within digital scholarly ecosystems:
 
 ## Digital Object Identifiers
 
-Contributors who allow {{< glossary_link display="LDaCA" id="ldaca" >}} to make their {{< glossary_link display="data collections" id="data-collection" >}} available through the portal can use the {{< glossary_link display="PIDs" id="pid" >}} they have if they already follow a specific PID practice. However, if it is their first time obtaining a PID, we recommend {{< glossary_link display="DOIs" id="doi" >}} as they are likely obtainable through a university library or institutional research repository. This has been the pattern with {{< glossary_link display="collections" id="collection" >}} in the LDaCA portal to date. DOIs are also available through general-purpose repositories like [Zenodo](https://zenodo.org/).
+Contributors who allow {{< glossary_link display="LDaCA" id="ldaca" >}} to make their {{< glossary_link display="data collections" id="data-collection" >}} available through the portal can use the {{< glossary_link display="PIDs" id="pid" >}} they have if they already follow a specific PID practice. However, if it is their first time obtaining a PID, we recommend {{< glossary_link display="DOIs" id="doi" >}} as they are likely obtainable through a university library or institutional research repository. This has been the pattern with {{< glossary_link display="collections" id="collection" >}} in the LDaCA Portal to date. DOIs are also available through general-purpose repositories like [Zenodo](https://zenodo.org/).
 
 <br>
 
@@ -51,9 +51,9 @@ Contributors who allow {{< glossary_link display="LDaCA" id="ldaca" >}} to make 
 
 [DOI Registration Agencies](https://www.doi.org/the-community/existing-registration-agencies) (RAs) all over the world offer services for registering DOIs and community-specific {{< glossary_link display="metadata" id="metadata" >}}. University libraries and institutional research repositories can be members of an RA (e.g. [DataCite](https://datacite.org/) in Australia) which allows them to create (or _mint_) and register DOIs for their organisation.
 
-Here’s an example of a DOI for a {{< glossary_link display="collection" id="collection" >}} available via the {{< glossary_link display="LDaCA" id="ldaca" >}} [data portal](https://data.ldaca.edu.au/search):
+Here's an example of a DOI for a {{< glossary_link display="collection" id="collection" >}} available via the {{< glossary_link display="LDaCA" id="ldaca" >}} [data portal](https://data.ldaca.edu.au/search):
 
-1. In the partial screenshot below of the record for the collection, the DOI number (10.26181/23089559) is part of the collection’s @id. The full @id value is arcp://name,doi10.26181%2F23089559 and the last part of this is the DOI (the slash which separates parts of the DOI is represented by the encoding %2F here).
+1. In the partial screenshot below of the record for the collection, the DOI number (10.26181/23089559) is part of the collection's @id. The full @id value is arcp://name,doi10.26181%2F23089559 and the last part of this is the DOI (the slash which separates parts of the DOI is represented by the encoding %2F here).
 
 <br>
 
@@ -61,16 +61,16 @@ Here’s an example of a DOI for a {{< glossary_link display="collection" id="co
 
 <br>
 
-2. The DOI resolves to an item in La Trobe University’s institutional repository. The content of the collection is available here, but there are also links to the record in the LDaCA portal which includes the DOI.
+2. The DOI resolves to an item in La Trobe University's institutional repository. The content of the collection is available here, but there are also links to the record in the LDaCA Portal which includes the DOI.
 
 <br>
 
-{{< image Src="/PIDs/PIDs_Fig_2_.png" Alt="Top of Repository Page" Desc="Figure 2: Top part of page in La Trobe University’s repository showing files in collection." Title="Top of Repository Page" Ref="LDaCA" >}}
+{{< image Src="/PIDs/PIDs_Fig_2_.png" Alt="Top of Repository Page" Desc="Figure 2: Top part of page in La Trobe University's repository showing files in collection." Title="Top of Repository Page" Ref="LDaCA" >}}
 
 <br>
 <br>
 
-{{< image Src="/PIDs/PIDs_Fig_3_.png" Alt="Bottom of Repository Page" Desc="Figure 3: Bottom part of page in La Trobe University’s repository showing collection details." Title="Bottom of Repository Page" Ref="LDaCA" Height="600">}}
+{{< image Src="/PIDs/PIDs_Fig_3_.png" Alt="Bottom of Repository Page" Desc="Figure 3: Bottom part of page in La Trobe University's repository showing collection details." Title="Bottom of Repository Page" Ref="LDaCA" Height="600">}}
 
 <br>
 
@@ -92,13 +92,13 @@ The DOI link is comprised of three parts:
 
 ### Why should my data collection have a DOI?
 
-A review of the uptake of {{< glossary_link display="PID" id="pid" >}} systems from the late 1990s to the late 2010s reported that {{< glossary_link display="DOIs" id="doi" >}} are, for several good reasons, the most widely adopted PIDs in research data repository systems (Klump & Huber 2017). DOIs follow a standardised system: there is a syntax specification for the DOI name construction which is followed by all registrars, providing consistency across the board. The Handle System, a trusted and long-established digital infrastructure, is the DOI system’s resolution component providing reliability and persistence in the findability of research {{< glossary_link display="objects" id="object" >}}.
+A review of the uptake of {{< glossary_link display="PID" id="pid" >}} systems from the late 1990s to the late 2010s reported that {{< glossary_link display="DOIs" id="doi" >}} are, for several good reasons, the most widely adopted PIDs in research data repository systems (Klump & Huber 2017). DOIs follow a standardised system: there is a syntax specification for the DOI name construction which is followed by all registrars, providing consistency across the board. The Handle System, a trusted and long-established digital infrastructure, is the DOI system's resolution component providing reliability and persistence in the findability of research {{< glossary_link display="objects" id="object" >}}.
 
 Another notable characteristic of the DOI system is its well-developed social infrastructure. The IDF develops and enforces rules and policies for the maintenance of records and for managing the division of responsibilities between RAs, RA members and DOI users. As a consequence, DOIs promote good {{< glossary_link display="data governance" id="data-governance" >}} practices. Apart from the act of obtaining a DOI, the associated responsibilities of creating and recording accurate and rich {{< glossary_link display="metadata" id="metadata" >}}, ensuring that the DOI record is updated through location and data changes, and providing clear data reuse and access terms, enlighten data owners and stewards about some of the practicalities of data governance.
 
-The DOI system’s underlying infrastructure supports {{< glossary_link display="interoperability" id="interoperability" >}} across different platforms and systems. For example, DataCite’s "Add to {{< glossary_link display="ORCID" id="orcid" >}} Record" feature allows a researcher to manually claim a DOI of their work and link it to their [ORCiD](https://orcid.org/) record (DataCite 2024). Data repositories can use DOIs to track usage metrics such as views, downloads and citations, which also informs data owners as to how researchers engage with the data.
+The DOI system's underlying infrastructure supports {{< glossary_link display="interoperability" id="interoperability" >}} across different platforms and systems. For example, DataCite's "Add to {{< glossary_link display="ORCID" id="orcid" >}} Record" feature allows a researcher to manually claim a DOI of their work and link it to their [ORCiD](https://orcid.org/) record (DataCite 2024). Data repositories can use DOIs to track usage metrics such as views, downloads and citations, which also informs data owners as to how researchers engage with the data.
 
-Below is a screenshot of a section of the DOI landing page for the _La Trobe Corpus of Spoken Australian English_ with some of the key information highlighted and annotated. The DOI was issued by DataCite via the La Trobe University Library’s DOI service.
+Below is a screenshot of a section of the DOI landing page for the _La Trobe Corpus of Spoken Australian English_ with some of the key information highlighted and annotated. The DOI was issued by DataCite via the La Trobe University Library's DOI service.
 
 <br>
 
