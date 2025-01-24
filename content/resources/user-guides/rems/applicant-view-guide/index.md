@@ -13,13 +13,13 @@ description: "A guide informing Owners and Handlers what the application process
 
 <br>
 
-> This section is not a how-to guide for Applicants but informs Owners and Handlers what the application process looks like from the Applicant's point of view. LDaCA Portal users and potential Applicants can refer to [Apply for Access to Collections with Access Restrictions](/resources/user-guides/portal/collection-access/#apply-for-access-to-collections-with-access-restrictions) on how to use REMS.
+> This section is not a how-to guide for Applicants but informs Owners and Handlers what the application process looks like from the Applicant's point of view. LDaCA Portal users and potential Applicants can refer to [Apply for Access to Collections with Access Restrictions](/resources/user-guides/portal/collection-access/#apply-for-access-to-collections-with-access-restrictions) on how to use {{< glossary_link display="REMS" id="rems" >}}.
 
 <br>
 
 ## How a New User Typically Encounters LDaCA REMS
 
-- When a user on the [LDaCA Portal](https://data.ldaca.edu.au) attempts to access a data object with restrictions, the following warning text displays on the webpage: "You do not have permission to see these files. Sign up or login." This means the user is not logged in to the portal and is prompted to do so.
+- When a user on the [LDaCA Portal](https://data.ldaca.edu.au) attempts to access a data {{< glossary_link display="object" id="object" >}} with restrictions, the following warning text displays on the webpage: "You do not have permission to see these files. Sign up or login." This means the user is not logged in to the portal and is prompted to do so.
 
 {{< image Src="/user-guides/rems/REMS-SignUp-or-Login.png" Alt="LDaCA Portal: Sign Up or Login" Desc="LDaCA Portal: Sign Up or Login" Title="LDaCA Portal: Sign Up or Login" Ref="LDaCA" >}}
 

@@ -17,7 +17,7 @@ description: "A guide for the options and tasks available in LDaCA REMS to users
 
 Resource Owners assign users (including themselves) as Handlers during [Workflow creation](../owner-guide/#51-create-a-workflow).
 
-> For each role you have in LDaCA REMS, log in with a consistent identity provider as all your actions are connected to your login identity.
+> For each role you have in LDaCA {{< glossary_link display="REMS" id="rems" >}}, log in with a consistent identity provider as all your actions are connected to your login identity.
 
 <br>
 
@@ -87,7 +87,7 @@ Handlers receive email notifications about new applications for the resource the
 
 #### Request Review
 
-- Select this to notify the designated Reviewer (e.g. the organisation Owner in LDaCA REMS, who may also be the data steward) that the application needs to be reviewed.
+- Select this to notify the designated Reviewer (e.g. the organisation Owner in LDaCA REMS, who may also be the {{< glossary_link display="data steward" id="data-steward" >}}) that the application needs to be reviewed.
 
 {{< image Src="/user-guides/rems/Handler-RequestReview.png" Alt="REMS: Application Request Review" Desc="REMS: Application Request Review" Title="REMS: Application Request Review" Ref="LDaCA" >}}
 

@@ -7,7 +7,7 @@ description: "A guide for the options and tasks available in LDaCA REMS to users
 
 <br>
 
-The LDaCA REMS system administrator assigns the Resource Owner role to data stewards or their designated persons.
+The LDaCA {{< glossary_link display="REMS" id="rems" >}} system administrator assigns the Resource Owner role to {{< glossary_link display="data stewards" id="data-steward" >}} or their designated persons.
 
 A Resource Owner can set up license approval workflows and manage resource entitlement processes.
 
@@ -167,7 +167,7 @@ If there are errors in the saved license, you can disable and archive it (see [1
 
 In LDaCA REMS, a form is the license application form or interface through which an Applicant may view the license, accept the terms and submit the application for approval.
 
-Owners can create a customised form with additional fields that can, for example, ask the Applicant to provide more information (e.g. contact information, copy of a research proposal, answers to a questionnaire). Permissions are granted only when the Resource Owner (data steward or their designated Handler or Approver) approves the application.
+Owners can create a customised form with additional fields that can, for example, ask the Applicant to provide more information (e.g. contact information, copy of a research proposal, answers to a questionnaire). Permissions are granted only when the Resource Owner ({{< glossary_link display="data steward" id="data-steward" >}} or their designated Handler or Approver) approves the application.
 
 <br>
 
@@ -285,7 +285,7 @@ The fields are briefly described below (CSC REMS Manual, 2021):
   - Always
   - Only if
 
-> The form can only be tested once it is enabled. The Resource Owner can test the form by using a different login account (use a different browser to avoid login issues). Simulate Applicant actions by accessing the relevant restricted data object in the LDaCA Portal and go through each step of the application process.
+> The form can only be tested once it is enabled. The Resource Owner can test the form by using a different login account (use a different browser to avoid login issues). Simulate Applicant actions by accessing the relevant restricted data {{< glossary_link display="object" id="object" >}} in the LDaCA Portal and go through each step of the application process.
 
 <br>
 
@@ -297,9 +297,9 @@ To disable, archive or hide a form, refer to [1.3 Disable or Archive an Item](#1
 
 ### 4. Resource
 
-LDaCA REMS manages data license entitlement, hence the resources are the licenses.
+LDaCA REMS manages {{< glossary_link display="data license" id="data-license" >}} entitlement, hence the resources are the licenses.
 
-> Linking the license to data objects is done in the backend for Resource Owners by LDaCA.
+> Linking the license to data {{< glossary_link display="objects" id="object" >}} is done in the backend for Resource Owners by LDaCA.
 
 <br>
 
@@ -390,7 +390,7 @@ Once removed from the Deny List, the user regains the permissions that had been 
 
 ### 5. Workflow
 
-The Resource Owner must create a workflow for their resource (i.e. the data license). In a workflow, the Owner must assign Handlers and connect the workflow to a form and license.
+The Resource Owner must create a workflow for their resource (i.e. the {{< glossary_link display="data license" id="data-license" >}}). In a workflow, the Owner must assign Handlers and connect the workflow to a form and license.
 
 <br>
 

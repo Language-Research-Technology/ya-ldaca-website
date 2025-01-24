@@ -13,11 +13,11 @@ description: "A guide for logging in to LDaCA REMS."
 
 <br>
 
-Users log in to LDaCA REMS in different ways:
+Users log in to LDaCA {{< glossary_link display="REMS" id="rems" >}} in different ways:
 
 - **Follow login prompts**: typical for LDaCA Portal visitors and potential data users
 
-  - Upon selecting a data object with access restrictions, follow the login prompts presented on the webpage.
+  - Upon selecting a data {{< glossary_link display="object" id="object" >}} with access restrictions, follow the login prompts presented on the webpage.
 
 - **Login via Account > User Information**: typical for returning users
 
@@ -38,7 +38,7 @@ The first two options are explained in detail below.
 
 ### Log in to the LDaCA Portal via Prompt
 
-Upon selecting a data object with access restrictions in the [LDaCA Portal](https://data.ldaca.edu.au), the following alert text appears:
+Upon selecting a data {{< glossary_link display="object" id="object" >}} with access restrictions in the [LDaCA Portal](https://data.ldaca.edu.au), the following alert text appears:
 
 {{< image Src="/user-guides/rems/REMS-SignUp-or-Login.png" Alt="LDaCA Portal: Sign Up or Login" Desc="LDaCA Portal: Sign Up or Login" Title="LDaCA Portal: Sign Up or Login" Ref="LDaCA" >}}
 
@@ -61,14 +61,14 @@ You will be taken to CILogon's login page:
 
 - On the _CILogon_ page are two sections:
   - **Consent to Attribute Release**: Lists the kind of information CILogon requires of you.
-  - **Select an Identity Provider**: Defaults to ORCID, but lets you choose a different ID provider from a drop-down list.
+  - **Select an Identity Provider**: Defaults to {{< glossary_link display="ORCID" id="orcid" >}}, but lets you choose a different ID provider from a drop-down list.
 - If you are a researcher with an active ORCID account, you can log in with ORCID as the ID Provider.
 
 > An ORCID account can only be used to log in if the email associated with it is set to public in your ORCID profile. Use another login option if you prefer to keep your email private.
 
 - Alternatively, if you are a faculty, staff or student member of a university or college, find and select your institution's name from the drop-down list.
 
-> If your university or school is not in the ID providers list, you can contact help@cilogon.org to request that your educational institution be added. Other account options include Google, GitHub or Microsoft. Remember which account you used as REMS keeps a history of actions per account.
+> If your university or school is not in the ID providers list, you can contact help@cilogon.org to request that your educational institution be added. Other account options include Google, {{< glossary_link display="GitHub" id="github" >}} or Microsoft. Remember which account you used as REMS keeps a history of actions per account.
 
 {{< image Src="/user-guides/rems/LDaCAData-CILogon-IdentityProviderSelection.png" Alt="LDaCAData CILogon Identity Provider Selection" Desc="LDaCAData CILogon Identity Provider Selection" Title="LDaCAData CILogon Identity Provider Selection" Ref="LDaCA" >}}
 
@@ -87,14 +87,14 @@ You will be taken to CILogon's login page:
 
 ### Log in to LDaCA REMS via Prompt
 
-When the user is logged in and attempts to access a restricted data object, the following alert text appears:
+When the user is logged in and attempts to access a restricted data {{< glossary_link display="object" id="object" >}}, the following alert text appears:
 
 {{< image Src="/user-guides/rems/REMS-ApplyOrRefreshPermissions.png" Alt="LDaCA Portal: Apply For Access or Refresh Permissions" Desc="LDaCA Portal: Apply For Access or Refresh Permissions" Title="LDaCA Portal: Apply For Access or Refresh Permissions" Ref="LDaCA">}}
 
 <br>
 
 - Select **_Apply for access_** if you have not previously applied for permissions, i.e. a use license for this data object.
-- Select **_refresh permissions_** if you have already applied for permissions (data license). The alert will remain the same if your application has not been approved. If your application was approved, you will see the green alert message similar to this:
+- Select **_refresh permissions_** if you have already applied for permissions ({{< glossary_link display="data license" id="data-license" >}}). The alert will remain the same if your application has not been approved. If your application was approved, you will see the green alert message similar to this:
 
 {{< image Src="/user-guides/rems/REMS-AccessGranted.png" Alt="LDaCA Portal: Access to Data Granted" Desc="LDaCA Portal: Access to Data Granted" Title="LDaCA Portal: Access to Data Granted" Ref="LDaCA">}}
 

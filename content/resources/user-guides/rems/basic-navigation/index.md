@@ -15,15 +15,15 @@ description: "A guide for navigating the various sections of the LDaCA REMS inte
 
 ## LDaCA REMS Top Menu
 
-Once logged in to REMS, the menu items you can access will depend on your user role(s). The user roles include:
+Once logged in to {{< glossary_link display="REMS" id="rems" >}}, the menu items you can access will depend on your user role(s). The user roles include:
 
 <br>
 
-| Role          | Description                                                                                                                                                                                                                                                                                                                                             |
-| ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Owner**     | Also Resource Owner. A user who (a) has data governance authority (e.g. the data owner, data steward or similar designation) to manage access to restricted data and (b) is assigned the technical role Owner in the REMS tool by LDaCA REMS system administrator(s).                                                                                   |
-| **Handler**   | Also Approver. A role assigned by an Owner to a user who is responsible for processing the applications to resources. Processing includes approving or rejecting the applications and, if needed, requesting decisions and reviews from an approver within their organisation. Handlers can also revoke an Applicant's access rights in case of misuse. |
-| **Applicant** | A user who applies for entitlement to a resource, i.e. data license, by submitting an application form.                                                                                                                                                                                                                                                 |
+| Role          | Description                                                                                                                                                                                                                                                                                                                                                                  |
+| ------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Owner**     | Also Resource Owner. A user who (a) has {{< glossary_link display="data governance" id="data-governance" >}} authority (e.g. the data owner, {{< glossary_link display="data steward" id="data-steward" >}} or similar designation) to manage access to restricted data and (b) is assigned the technical role Owner in the REMS tool by LDaCA REMS system administrator(s). |
+| **Handler**   | Also Approver. A role assigned by an Owner to a user who is responsible for processing the applications to resources. Processing includes approving or rejecting the applications and, if needed, requesting decisions and reviews from an approver within their organisation. Handlers can also revoke an Applicant's access rights in case of misuse.                      |
+| **Applicant** | A user who applies for entitlement to a resource, i.e. {{< glossary_link display="data license" id="data-license" >}}, by submitting an application form.                                                                                                                                                                                                                    |
 
 <br>
 
@@ -91,7 +91,7 @@ Administration allows Owners and Handlers to create, edit and work with records 
 
 ### About
 
-About displays basic information about LDaCA REMS.
+About displays basic information about LDaCA {{< glossary_link display="REMS" id="rems" >}}.
 
 {{< image Src="/user-guides/rems/REMS-Interface-About.png" Alt="REMS Interface: About" Desc="REMS Interface: About" Title="REMS Interface: About" Ref="LDaCA" >}}
 
